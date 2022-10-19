@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List Demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./todo_style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="header">
+                <h2>TODO</h2>
+            </div>
+            <div class="new-item">
+                <form id="item-form">
+                    <input type="text" name="new-item" id="new-item" placeholder="add item here ...">
+                    <button type="submit">
+                        <i class="bi bi-plus-square-fill"></i>
+                    </button>
+                </form>
+            </div>
+        </header>
+        <div id="items-list"></div>
+        <div class="notification"></div>
+    </div>
+
+    <script src="./todo_script.js"></script>
+</body>
+</html>
